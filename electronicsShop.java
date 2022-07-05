@@ -50,9 +50,14 @@ public class Solution {
                }
         }
         
-        for(int y=0;y<aList.size();y++){
+       
+        
+        
+        
+      if(aList.size()>0) {
             return Collections.max(aList);
-        }
+      }
+     
            
            
            
