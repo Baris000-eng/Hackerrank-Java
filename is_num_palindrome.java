@@ -6,6 +6,12 @@ class Solution {
         int temporary= x;    
         int remainder= 0;
         int summation= 0;
+        
+        if(x<=0){
+            return false;
+        }
+        
+        
         while(x>0){    
            remainder=x%10;  
            summation=(10*summation)+remainder;    
