@@ -36,6 +36,14 @@ public class Solution {
        ArrayList<Integer>sumArrayList=new ArrayList<Integer>();
        int lenK=keyboards.length;
        int lenD=drives.length;
+        
+       if(lenK == 0 && lenD == 0){ //if there is no element in the keyboards array and drives array
+           return -1;
+       }
+        
+        
+        
+        
        for(int i=0;i<lenK;i++){
            for(int j=0;j<lenD;j++){
                sumArrayList.add(keyboards[i]+drives[j]);
