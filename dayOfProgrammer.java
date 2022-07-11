@@ -57,10 +57,14 @@ class Result {
     // Write your code here
     
     int sumDays = 0;
+    String blank = "";
+    if(year<=0){
+        return blank;
+    }
     if(year == 1918){
             sumDays = 230;
     }
-    if(year < 1918){
+    else if(year < 1918){
         if(year %4 ==0){
             sumDays = 244;
         } else {
