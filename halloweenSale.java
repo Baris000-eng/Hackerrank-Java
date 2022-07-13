@@ -75,7 +75,7 @@ class Result {
             }
             
         }
-       return gameCount++;
+       return gameCount;
 
     }
 
