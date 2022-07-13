@@ -57,6 +57,10 @@ class Result {
 //The tallest letter in  is at . The selection area for this word is 
     public static int designerPdfViewer(List<Integer> h, String word) {
     // Write your code here
+        
+    if(word.equals("") || h.isEmpty()){
+        return 0;
+    }
     
     int l = word.length();
     int maxNum = 0;
