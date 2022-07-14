@@ -57,6 +57,7 @@ class Result {
 //Explanation 1 
 //Anna didn't eat item , but she shared the rest of the items with Brian. The total cost of the shared items is  and, split in half, the cost per person is . Because , we print Bon Appetit on a new line.
     public static void bonAppetit(List<Integer> bill, int k, int b) {
+    
     // Write your code here
     int sum = 0;
     int secondSum = 0;
@@ -66,8 +67,12 @@ class Result {
     }
         sum = sum / 2;
         
+    if(!bill.isEmpty()){
     for(int j = 0; j<bill.size(); j++){
         secondSum = secondSum + bill.get(j);
+    }
+    } else {
+        System.out.println("No Element in the bill list");
     }
     
     secondSum = secondSum - bill.get(k);
