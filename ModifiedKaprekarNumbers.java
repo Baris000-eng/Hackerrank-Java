@@ -53,7 +53,7 @@ class Result {
 //Explanation
 //, , , , and  are the modified Kaprekar Numbers in the given range.
     public static boolean is_num_kaprekar (int f){
-            int sq = (int) f*f;
+            long sq = (long) f*f;
             boolean is_kaprekar_num = false;
             String s = String.valueOf(sq);
             if(s.equals("")){
