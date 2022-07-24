@@ -25,7 +25,7 @@ class Result {
     List<Integer>indexes = new ArrayList<Integer>();
     int s = p.size();
     for(int j=1;j<=5;j++){
-        for(int i=0;i<s;i++){
+    for(int i=0;i<s;i++){
             if(p.get(i)==j){
                 indexes.add(i+1);
             }
