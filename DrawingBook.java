@@ -33,7 +33,7 @@ class Result {
             //if the number of flips from the last page of the book to the target page number is smaller than or equal to the number of flips from the 0th or 1st page to the target page number 
             return (n-p)/2;
         } 
-            return -1; //otherwise, return -1.
+            return 0; //otherwise, return 0.
         }
     }
 public class Solution {
