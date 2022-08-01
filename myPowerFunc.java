@@ -4,6 +4,9 @@ class Solution {
             return 1;
         }
         
+        if(n ==0 && x == 0 ) { 
+            throw new ArithmeticException();
+        }
         
         if(n<0 && x!=0){
             x=1/x;
