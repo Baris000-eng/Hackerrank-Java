@@ -4,7 +4,7 @@ class Solution {
             return 1;
         }
         
-        if(n ==0 && x == 0 ) { 
+        if(n == 0 && x == 0 ) { 
             throw new ArithmeticException();
         }
         
