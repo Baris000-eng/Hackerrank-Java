@@ -13,7 +13,7 @@ public class BigIntegerDigitSum {
         System.out.print("Please enter the power of the big integer: ");
         int power = sc.nextInt();
         System.out.println();
-        if( (base==0 && power==0) || (base < 0 && power > 0 && power % 2 ==1) || String.valueOf(power) == null || String.valueOf(power).equals("") || Double.toString(base) == null || Double.toString(power) == "") {
+        if( (base==0 && power==0) || (base < 0 && power > 0 && power % 2 ==1)) {
             System.out.println("\nCannot construct this number !!\n");
             break;
         } else {
