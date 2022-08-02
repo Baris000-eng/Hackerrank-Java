@@ -1,9 +1,7 @@
 package digitsum;
-// Online Java Compiler
+
 import java.math.*;
 import java.util.Scanner;
-
-// Use this editor to write, compile and run your Java code online
 
 public class BigIntegerDigitSum {
     public static void main(String[] args) {
